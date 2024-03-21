@@ -1,6 +1,11 @@
 {% extends 'layouts/base.html' %}
+{% load static %}
+
 
 {% block content %}
 <h1>{{title}}</h1>
+
+<img src="{% static 'perfil.jpg' %}" alt="" width="100">
+
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta exercitationem animi nisi neque mollitia repudiandae molestias officiis? Unde, nisi consequuntur consequatur itaque illo facilis omnis. Suscipit esse quos praesentium veritatis.</p>
 {% endblock %}
